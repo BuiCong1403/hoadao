@@ -77,7 +77,7 @@ def write_m3u(data):
         content += f'#EXTINF:-1 tvg-logo="{item["logo"]}",{item["title"]}\n'
         content += f'{item["url"]}\n\n'
 
-    with open("tv.m3u", "w", encoding="utf-8") as f:
+    with open("hoadao.m3u", "w", encoding="utf-8") as f:
         f.write(content)
 
     print(f"Done! {len(data)} channels")

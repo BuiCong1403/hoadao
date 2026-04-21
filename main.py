@@ -6,14 +6,22 @@ SOURCE_URL = "https://raw.githubusercontent.com/nhanb2004798/watchfbfree/refs/he
 
 def load_m3u(url):
     items = []
+
     try:
         res = requests.get(url, timeout=15)
-        lines = res.text.splitlines()
+        text = res.text
 
-        title = ""
+        # nối các dòng bị xuống dòng giữa URL
+        text = re.sub(r'\n(?!#)', '', text)
+
+        lines = text.splitlines()
+
+        title = "Unknown"
         logo = ""
 
         for line in lines:
+            line = line.strip()
+
             if line.startswith("#EXTINF"):
                 parts = line.split(",", 1)
                 title = parts[1] if len(parts) > 1 else "Channel"
@@ -22,16 +30,13 @@ def load_m3u(url):
                 logo = m.group(1) if m else ""
 
             elif line.startswith("http"):
-                stream = line.strip()
+                stream = line
 
-                # ❌ loại link lỗi
+                # ❌ chỉ loại mấy cái chắc chắn không dùng
                 if any(x in stream for x in ["udp://", "rtp://"]):
                     continue
 
-                # ✅ giữ m3u8 + flv
-                if not (".m3u8" in stream or ".flv" in stream):
-                    continue
-
+                # ✅ KHÔNG lọc đuôi nữa → giữ hết
                 items.append({
                     "title": title,
                     "logo": logo,
@@ -58,8 +63,11 @@ def remove_duplicate(data):
 
 
 def sort_streams(data):
-    # ưu tiên m3u8 lên đầu
-    return sorted(data, key=lambda x: (".m3u8" not in x["url"]))
+    # ưu tiên m3u8 trước → rồi flv → rồi khác
+    return sorted(data, key=lambda x: (
+        ".m3u8" not in x["url"],
+        ".flv" not in x["url"]
+    ))
 
 
 def write_m3u(data):
@@ -69,7 +77,7 @@ def write_m3u(data):
         content += f'#EXTINF:-1 tvg-logo="{item["logo"]}",{item["title"]}\n'
         content += f'{item["url"]}\n\n'
 
-    with open("hoadao.m3u", "w", encoding="utf-8") as f:
+    with open("tv.m3u", "w", encoding="utf-8") as f:
         f.write(content)
 
     print(f"Done! {len(data)} channels")
@@ -78,7 +86,11 @@ def write_m3u(data):
 if __name__ == "__main__":
     data = load_m3u(SOURCE_URL)
 
+    print("Raw:", len(data))
+
     data = remove_duplicate(data)
     data = sort_streams(data)
+
+    print("Final:", len(data))
 
     write_m3u(data)

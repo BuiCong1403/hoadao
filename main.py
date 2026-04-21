@@ -61,15 +61,6 @@ def remove_duplicate(data):
 
     return out
 
-
-def sort_streams(data):
-    # ưu tiên m3u8 trước → rồi flv → rồi khác
-    return sorted(data, key=lambda x: (
-        ".m3u8" not in x["url"],
-        ".flv" not in x["url"]
-    ))
-
-
 def write_m3u(data):
     content = "#EXTM3U\n"
 

@@ -9,18 +9,16 @@ def load_m3u(url):
 
     try:
         res = requests.get(url, timeout=15)
-        text = res.text
-
-        # nối các dòng bị xuống dòng giữa URL
-        text = re.sub(r'\n(?!#)', '', text)
-
-        lines = text.splitlines()
+        lines = res.text.splitlines()
 
         title = "Unknown"
         logo = ""
 
         for line in lines:
             line = line.strip()
+
+            if not line:
+                continue
 
             if line.startswith("#EXTINF"):
                 parts = line.split(",", 1)
@@ -32,11 +30,11 @@ def load_m3u(url):
             elif line.startswith("http"):
                 stream = line
 
-                # ❌ chỉ loại mấy cái chắc chắn không dùng
+                # ❌ chỉ loại link chắc chắn không dùng
                 if any(x in stream for x in ["udp://", "rtp://"]):
                     continue
 
-                # ✅ KHÔNG lọc đuôi nữa → giữ hết
+                # ✅ giữ tất cả (KHÔNG lọc đuôi nữa)
                 items.append({
                     "title": title,
                     "logo": logo,
@@ -61,6 +59,15 @@ def remove_duplicate(data):
 
     return out
 
+
+def sort_streams(data):
+    # ưu tiên m3u8 → flv → còn lại
+    return sorted(data, key=lambda x: (
+        ".m3u8" not in x["url"],
+        ".flv" not in x["url"]
+    ))
+
+
 def write_m3u(data):
     content = "#EXTM3U\n"
 
@@ -68,7 +75,7 @@ def write_m3u(data):
         content += f'#EXTINF:-1 tvg-logo="{item["logo"]}",{item["title"]}\n'
         content += f'{item["url"]}\n\n'
 
-    with open("hoadao.m3u", "w", encoding="utf-8") as f:
+    with open("tv.m3u", "w", encoding="utf-8") as f:
         f.write(content)
 
     print(f"Done! {len(data)} channels")
@@ -77,7 +84,7 @@ def write_m3u(data):
 if __name__ == "__main__":
     data = load_m3u(SOURCE_URL)
 
-    print("Raw:", len(data))
+    print("Loaded:", len(data))
 
     data = remove_duplicate(data)
     data = sort_streams(data)

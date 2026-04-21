@@ -2,15 +2,6 @@
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Real Madrid vs Deportivo Alavés - Cháo Quẩy
 https://pull.globalcdnnetworksc2030.info/str01/blv-chao-quay.flv
 
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Inter Milan vs Como - Văn Chuẩn
-https://pull.globalcdnnetworksc2030.info/str01/blv-van-chuan.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Brighton Hove Albion vs Chelsea - Dylan
-https://pull.globalcdnnetworksc2030.info/str01/blv-dylan.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Brighton Hove Albion vs Chelsea - Neymar
-https://pull.globalcdnnetworksc2030.info/str01/blv-thay-ma.flv
-
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Girona FC vs Real Betis - Mèo Béo
 https://pull.globalcdnnetworksc2030.info/str01/blv-meo-beo.flv
 
@@ -31,6 +22,15 @@ https://pull.globalcdnnetworksc2030.info/str01/blv-phao.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Queretaro FC vs Cruz Azul - Táo
 https://pull.globalcdnnetworksc2030.info/str01/blv-tao.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Los Angeles Lakers vs Houston Rockets - Văn Chuẩn
+https://pull.globalcdnnetworksc2030.info/str01/blv-van-chuan.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Shanghai Shenhua vs Qingdao Hainiu - Neymar
+https://pull.globalcdnnetworksc2030.info/str01/blv-thay-ma.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Gazovik Orenburg vs FC Pari Nizhniy Novgorod - Dylan
+https://pull.globalcdnnetworksc2030.info/str01/blv-dylan.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Bodo Glimt vs KFUM Oslo - A Tai
 https://pull.globalcdnnetworksc2030.info/str01/blv-gio-tai.flv

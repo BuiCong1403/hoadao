@@ -1,8 +1,8 @@
 import requests
 import re
-from datetime import datetime
 
 SOURCE_URL = "https://raw.githubusercontent.com/nhanb2004798/watchfbfree/refs/heads/main/watchfrhd.m3u"
+
 
 def load_m3u(url):
     items = []
@@ -24,12 +24,12 @@ def load_m3u(url):
             elif line.startswith("http"):
                 stream = line.strip()
 
-                # ✅ lọc OTTPlayer: chỉ m3u8
-                if ".m3u8" not in stream:
+                # ❌ loại link lỗi
+                if any(x in stream for x in ["udp://", "rtp://"]):
                     continue
 
-                # ❌ loại link lỗi phổ biến
-                if any(x in stream for x in ["udp://", "rtp://"]):
+                # ✅ giữ m3u8 + flv
+                if not (".m3u8" in stream or ".flv" in stream):
                     continue
 
                 items.append({
@@ -44,20 +44,32 @@ def load_m3u(url):
     return items
 
 
-def write_m3u(data):
-    content = "#EXTM3U\n"
-
+def remove_duplicate(data):
     seen = set()
+    out = []
 
     for item in data:
         if item["url"] in seen:
             continue
         seen.add(item["url"])
+        out.append(item)
 
+    return out
+
+
+def sort_streams(data):
+    # ưu tiên m3u8 lên đầu
+    return sorted(data, key=lambda x: (".m3u8" not in x["url"]))
+
+
+def write_m3u(data):
+    content = "#EXTM3U\n"
+
+    for item in data:
         content += f'#EXTINF:-1 tvg-logo="{item["logo"]}",{item["title"]}\n'
         content += f'{item["url"]}\n\n'
 
-    with open("hoadao.m3u", "w", encoding="utf-8") as f:
+    with open("tv.m3u", "w", encoding="utf-8") as f:
         f.write(content)
 
     print(f"Done! {len(data)} channels")
@@ -65,4 +77,8 @@ def write_m3u(data):
 
 if __name__ == "__main__":
     data = load_m3u(SOURCE_URL)
+
+    data = remove_duplicate(data)
+    data = sort_streams(data)
+
     write_m3u(data)

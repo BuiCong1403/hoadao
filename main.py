@@ -1,40 +1,68 @@
-name: Update TV M3U
+import requests
+import re
+from datetime import datetime
 
-on:
-  schedule:
-    - cron: '0 */3 * * *'   # ⏰ mỗi 3 giờ
-  workflow_dispatch:
+SOURCE_URL = "https://raw.githubusercontent.com/nhanb2004798/watchfbfree/refs/heads/main/watchfrhd.m3u"
 
-permissions:
-  contents: write
+def load_m3u(url):
+    items = []
+    try:
+        res = requests.get(url, timeout=15)
+        lines = res.text.splitlines()
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
+        title = ""
+        logo = ""
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+        for line in lines:
+            if line.startswith("#EXTINF"):
+                parts = line.split(",", 1)
+                title = parts[1] if len(parts) > 1 else "Channel"
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
+                m = re.search(r'tvg-logo="([^"]+)"', line)
+                logo = m.group(1) if m else ""
 
-      - name: Install
-        run: pip install requests
+            elif line.startswith("http"):
+                stream = line.strip()
 
-      - name: Run script
-        run: python main.py   # đổi nếu tên file khác
+                # ✅ lọc OTTPlayer: chỉ m3u8
+                if ".m3u8" not in stream:
+                    continue
 
-      - name: Commit
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
+                # ❌ loại link lỗi phổ biến
+                if any(x in stream for x in ["udp://", "rtp://"]):
+                    continue
 
-          git add hoadaotv.m3u
+                items.append({
+                    "title": title,
+                    "logo": logo,
+                    "url": stream
+                })
 
-          git diff --cached --quiet || git commit -m "update tv m3u (3h)"
+    except Exception as e:
+        print("Error:", e)
 
-          git push
+    return items
+
+
+def write_m3u(data):
+    content = "#EXTM3U\n"
+
+    seen = set()
+
+    for item in data:
+        if item["url"] in seen:
+            continue
+        seen.add(item["url"])
+
+        content += f'#EXTINF:-1 tvg-logo="{item["logo"]}",{item["title"]}\n'
+        content += f'{item["url"]}\n\n'
+
+    with open("hoadao.m3u", "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(f"Done! {len(data)} channels")
+
+
+if __name__ == "__main__":
+    data = load_m3u(SOURCE_URL)
+    write_m3u(data)

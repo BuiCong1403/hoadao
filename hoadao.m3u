@@ -1,12 +1,9 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp PSIM Yogyakarta vs Persatuan Sepakbola Indonesia Jakarta - Chim Nhỏ
-https://pull.globalcdnnetworksc2030.info/str01/blv-chim-nho.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Gamba Osaka vs Avispa Fukuoka - Mèo Béo
-https://pull.globalcdnnetworksc2030.info/str01/blv-meo-beo.flv
-
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp HLE vs NS - Dưa Hấu
 https://pull.globalcdnnetworksc2030.info/str01/blv-dua-hau.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Preah Khan Reach Svay Rieng FC vs Bangkok United FC - Người Kiến
+https://pull.globalcdnnetworksc2030.info/str01/blv-nguoi-kien.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Vietnam U17 vs Australia U17 - Neymar
 https://pull.globalcdnnetworksc2030.info/str01/blv-thay-ma.flv
@@ -23,14 +20,17 @@ https://pull.globalcdnnetworksc2030.info/str01/blv-tao.flv
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Bodo Glimt vs KFUM Oslo - A Tai
 https://pull.globalcdnnetworksc2030.info/str01/blv-gio-tai.flv
 
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Elche vs Atletico Madrid - Người Kiến
-https://pull.globalcdnnetworksc2030.info/str01/blv-nguoi-kien.flv
-
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Bayer 04 Leverkusen vs FC Bayern Munich - Pháo
 https://pull.globalcdnnetworksc2030.info/str01/blv-phao.flv
 
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Burnley vs Manchester City - Mèo Béo
+https://pull.globalcdnnetworksc2030.info/str01/blv-meo-beo.flv
+
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp RC Strasbourg Alsace vs OGC Nice - Văn Chuẩn
 https://pull.globalcdnnetworksc2030.info/str01/blv-van-chuan.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp FC Barcelona vs RC Celta - Chim Nhỏ
+https://pull.globalcdnnetworksc2030.info/str01/blv-chim-nho.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp FC Barcelona vs RC Celta - A Mập
 https://pull.globalcdnnetworksc2030.info/str01/blv-a-map.flv

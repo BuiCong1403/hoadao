@@ -1,15 +1,12 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Detroit Pistons vs Orlando Magic - Văn Chuẩn
-https://pull.globalcdnnetworksc2030.info/str01/blv-van-chuan.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Real Salt Lake vs Inter Miami CF - Mèo Béo
-https://pull.globalcdnnetworksc2030.info/str01/blv-meo-beo.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Los Angeles FC vs Colorado Rapids - Táo
-https://pull.globalcdnnetworksc2030.info/str01/blv-tao.flv
-
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp BRO vs DK - Dưa Hấu
 https://pull.globalcdnnetworksc2030.info/str01/blv-dua-hau.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Persita Tangerang vs Bali United - Văn Chuẩn
+https://pull.globalcdnnetworksc2030.info/str01/blv-van-chuan.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Malut United vs Persebaya Surabaya - Táo
+https://pull.globalcdnnetworksc2030.info/str01/blv-tao.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Zorya vs FC Shakhtar Donetsk - A Tai
 https://pull.globalcdnnetworksc2030.info/str01/blv-gio-tai.flv
@@ -28,4 +25,13 @@ https://pull.globalcdnnetworksc2030.info/str01/blv-nguoi-kien.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Istanbul GSK vs Fenerbahce - A Mập
 https://pull.globalcdnnetworksc2030.info/str01/blv-a-map.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Al Najma(KSA) vs Al Taawoun - Mèo Béo
+https://pull.globalcdnnetworksc2030.info/str01/blv-meo-beo.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Al Hilal vs Al Kholood - Cháo Quẩy
+https://pull.globalcdnnetworksc2030.info/str01/blv-chao-quay.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp SCU Torreense vs AD Fafe - Dylan
+https://pull.globalcdnnetworksc2030.info/str01/blv-dylan.flv
 

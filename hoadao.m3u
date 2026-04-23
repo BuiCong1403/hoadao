@@ -1,21 +1,9 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp FC Porto vs Sporting CP - Người Kiến
-https://pull.globalcdnnetworksc2030.info/str01/blv-nguoi-kien.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Atalanta vs Lazio - Dylan
-https://pull.globalcdnnetworksc2030.info/str01/blv-dylan.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp FC Barcelona vs RC Celta - A Mập
-https://pull.globalcdnnetworksc2030.info/str01/blv-a-map.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp CD Victoria vs Juticalpa - Chim Nhỏ
-https://pull.globalcdnnetworksc2030.info/str01/blv-chim-nho.flv
-
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Detroit Pistons vs Orlando Magic - Văn Chuẩn
 https://pull.globalcdnnetworksc2030.info/str01/blv-van-chuan.flv
 
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Real Salt Lake vs Inter Miami CF - Cháo Quẩy
-https://pull.globalcdnnetworksc2030.info/str01/blv-chao-quay.flv
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Real Salt Lake vs Inter Miami CF - Mèo Béo
+https://pull.globalcdnnetworksc2030.info/str01/blv-meo-beo.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Los Angeles FC vs Colorado Rapids - Táo
 https://pull.globalcdnnetworksc2030.info/str01/blv-tao.flv
@@ -26,12 +14,18 @@ https://pull.globalcdnnetworksc2030.info/str01/blv-dua-hau.flv
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Zorya vs FC Shakhtar Donetsk - A Tai
 https://pull.globalcdnnetworksc2030.info/str01/blv-gio-tai.flv
 
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Hà Nội Nữ vs Thông Tin Nữ - Chim Nhỏ
+https://pull.globalcdnnetworksc2030.info/str01/blv-chim-nho.flv
+
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Al-Sharjah vs Al Wahda(UAE) - Neymar
 https://pull.globalcdnnetworksc2030.info/str01/blv-thay-ma.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Biên Phòng MB vs Hà Nội - Pháo
 https://pull.globalcdnnetworksc2030.info/str01/blv-phao.flv
 
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Al Najma(KSA) vs Al Taawoun - Mèo Béo
-https://pull.globalcdnnetworksc2030.info/str01/blv-meo-beo.flv
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp El Mokawloon El Arab vs Ittihad Alexandria SC - Người Kiến
+https://pull.globalcdnnetworksc2030.info/str01/blv-nguoi-kien.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Istanbul GSK vs Fenerbahce - A Mập
+https://pull.globalcdnnetworksc2030.info/str01/blv-a-map.flv
 

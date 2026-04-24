@@ -1,28 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Đan Mạch vs Hàn Quốc - Người Cát
-https://pull.globalcdnnetworksc2031.info/str01/blv-nguoi-cat.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp RB Leipzig vs 1. FC Union Berlin - A Tai
-https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Napoli vs Cremonese - Mèo Béo
-https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Stade Brestois 29 vs RC Lens - Dylan
-https://pull.globalcdnnetworksc2031.info/str01/blv-dylan.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Sunderland vs Nottingham Forest - Chim Nhỏ
-https://pull.globalcdnnetworksc2031.info/str01/blv-chim-nho.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Real Betis vs Real Madrid - A Mập
-https://pull.globalcdnnetworksc2031.info/str01/blv-a-map.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Jessica Pegula vs K. Boulter - Người Kiến
-https://pull.globalcdnnetworksc2031.info/str01/blv-nguoi-kien.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Sunderland vs Nottingham Forest - Neymar
-https://pull.globalcdnnetworksc2031.info/str01/blv-thay-ma.flv
-
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Real Betis vs Real Madrid - Cháo Quẩy
 https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv
 
@@ -32,9 +8,30 @@ https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan.flv
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp SmackDown vs SmackDown - Pháo
 https://pull.globalcdnnetworksc2031.info/str01/blv-phao.flv
 
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Đài Loan vs Thụy Điển - Người Cát
+https://pull.globalcdnnetworksc2031.info/str01/blv-nguoi-cat.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Newcastle Jets vs Central Coast Mariners - Táo
+https://pull.globalcdnnetworksc2031.info/str01/blv-tao.flv
+
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp T1 vs BRO - Dưa Hấu
 https://pull.globalcdnnetworksc2031.info/str01/blv-dua-hau.flv
 
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Madura United vs Dewa United FC - Táo
-https://pull.globalcdnnetworksc2031.info/str01/blv-tao.flv
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp CLB Thanh Hoa vs PVF CAND - Dylan
+https://pull.globalcdnnetworksc2031.info/str01/blv-dylan.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Becamex Ho Chi Minh City vs Thep Xanh Nam Dinh FC - A Mập
+https://pull.globalcdnnetworksc2031.info/str01/blv-a-map.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Fulham vs Aston Villa - Mèo Béo
+https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Deportivo Alavés vs RCD Mallorca - Người Kiến
+https://pull.globalcdnnetworksc2031.info/str01/blv-nguoi-kien.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Wolverhampton Wanderers vs Tottenham Hotspur - A Tai
+https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Getafe vs FC Barcelona - Neymar
+https://pull.globalcdnnetworksc2031.info/str01/blv-thay-ma.flv
 

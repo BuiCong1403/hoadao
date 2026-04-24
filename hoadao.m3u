@@ -1,7 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Trung Quốc vs Úc - A Mập
-https://pull.globalcdnnetworksc2030.info/str01/blv-a-map.flv
-
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp BFX vs KT - Dưa Hấu
 https://pull.globalcdnnetworksc2030.info/str01/blv-dua-hau.flv
 
@@ -22,6 +19,9 @@ https://pull.globalcdnnetworksc2030.info/str01/blv-chao-quay.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Hóa Chất Đức Giang Lào Cai Nữ vs VTV Bình Điền Long An Nữ - Chim Nhỏ
 https://pull.globalcdnnetworksc2030.info/str01/blv-chim-nho.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Malaysia U17 vs Vietnam U17 - A Mập
+https://pull.globalcdnnetworksc2030.info/str01/blv-a-map.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Malaysia U17 vs Vietnam U17 - Neymar
 https://pull.globalcdnnetworksc2030.info/str01/blv-thay-ma.flv

@@ -1,7 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Minnesota Timberwolves vs Denver Nuggets - Văn Chuẩn
-https://pull.globalcdnnetworksc2030.info/str01/blv-van-chuan.flv
-
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Trung Quốc vs Úc - A Mập
 https://pull.globalcdnnetworksc2030.info/str01/blv-a-map.flv
 
@@ -34,6 +31,9 @@ https://pull.globalcdnnetworksc2030.info/str01/blv-dylan.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Galatasaray vs Ziraat Bankasi - Mèo Béo
 https://pull.globalcdnnetworksc2030.info/str01/blv-meo-beo.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Philadelphia 76ers vs Boston Celtics - Văn Chuẩn
+https://pull.globalcdnnetworksc2030.info/str01/blv-van-chuan.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Đài Loan vs Thụy Điển - Người Cát
 https://pull.globalcdnnetworksc2030.info/str01/blv-nguoi-cat.flv

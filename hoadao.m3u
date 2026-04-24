@@ -1,24 +1,15 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp BFX vs KT - Dưa Hấu
-https://pull.globalcdnnetworksc2030.info/str01/blv-dua-hau.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Persatuan Sepakbola Indonesia Jepara vs PSBS Biak Numfor - A Tai
-https://pull.globalcdnnetworksc2030.info/str01/blv-gio-tai.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Macarthur FC vs Wellington Phoenix - Táo
-https://pull.globalcdnnetworksc2030.info/str01/blv-tao.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Hoang Anh Gia Lai vs XM Hai Phong FC - Pháo
-https://pull.globalcdnnetworksc2030.info/str01/blv-phao.flv
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Hóa Chất Đức Giang Lào Cai Nữ vs VTV Bình Điền Long An Nữ - Chim Nhỏ
+https://pull.globalcdnnetworksc2031.info/str01/blv-chim-nho.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Pháp vs Thái Lan - Người Kiến
 https://pull.globalcdnnetworksc2030.info/str01/blv-nguoi-kien.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Ninh Binh FC vs Hanoi FC - Cháo Quẩy
-https://pull.globalcdnnetworksc2030.info/str01/blv-chao-quay.flv
+https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv
 
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Hóa Chất Đức Giang Lào Cai Nữ vs VTV Bình Điền Long An Nữ - Chim Nhỏ
-https://pull.globalcdnnetworksc2030.info/str01/blv-chim-nho.flv
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Persib Bandung vs Arema FC - Táo
+https://pull.globalcdnnetworksc2030.info/str01/blv-tao.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Malaysia U17 vs Vietnam U17 - A Mập
 https://pull.globalcdnnetworksc2030.info/str01/blv-a-map.flv
@@ -26,15 +17,30 @@ https://pull.globalcdnnetworksc2030.info/str01/blv-a-map.flv
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Malaysia U17 vs Vietnam U17 - Neymar
 https://pull.globalcdnnetworksc2030.info/str01/blv-thay-ma.flv
 
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Sebastian Ofner vs Tomas Martin Etcheverry - Người Cát
+https://pull.globalcdnnetworksc2030.info/str01/blv-nguoi-cat.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Công An TPHCM vs Thể Công Tân Cảng - Pháo
+https://pull.globalcdnnetworksc2030.info/str01/blv-phao.flv
+
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Vaasa VPS vs Ilves Tampere - Dylan
 https://pull.globalcdnnetworksc2030.info/str01/blv-dylan.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Galatasaray vs Ziraat Bankasi - Mèo Béo
 https://pull.globalcdnnetworksc2030.info/str01/blv-meo-beo.flv
 
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp RB Leipzig vs 1. FC Union Berlin - A Tai
+https://pull.globalcdnnetworksc2030.info/str01/blv-gio-tai.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Sunderland vs Nottingham Forest - Chim Nhỏ
+https://pull.globalcdnnetworksc2030.info/str01/blv-chim-nho.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Real Betis vs Real Madrid - Cháo Quẩy
+https://pull.globalcdnnetworksc2030.info/str01/blv-chao-quay.flv
+
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Philadelphia 76ers vs Boston Celtics - Văn Chuẩn
 https://pull.globalcdnnetworksc2030.info/str01/blv-van-chuan.flv
 
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Đài Loan vs Thụy Điển - Người Cát
-https://pull.globalcdnnetworksc2030.info/str01/blv-nguoi-cat.flv
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp T1 vs BRO - Dưa Hấu
+https://pull.globalcdnnetworksc2030.info/str01/blv-dua-hau.flv
 

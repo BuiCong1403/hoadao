@@ -1,7 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Real Betis vs Real Madrid - Cháo Quẩy
-https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv
-
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Philadelphia 76ers vs Boston Celtics - Văn Chuẩn
 https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan.flv
 
@@ -17,6 +14,12 @@ https://pull.globalcdnnetworksc2031.info/str01/blv-tao.flv
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp T1 vs BRO - Dưa Hấu
 https://pull.globalcdnnetworksc2031.info/str01/blv-dua-hau.flv
 
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Malaysia vs Anh - A Tai
+https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Jaume Munar vs Casper Ruud - Người Kiến
+https://pull.globalcdnnetworksc2031.info/str01/blv-nguoi-kien.flv
+
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp CLB Thanh Hoa vs PVF CAND - Dylan
 https://pull.globalcdnnetworksc2031.info/str01/blv-dylan.flv
 
@@ -26,11 +29,11 @@ https://pull.globalcdnnetworksc2031.info/str01/blv-a-map.flv
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Fulham vs Aston Villa - Mèo Béo
 https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo.flv
 
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Deportivo Alavés vs RCD Mallorca - Người Kiến
-https://pull.globalcdnnetworksc2031.info/str01/blv-nguoi-kien.flv
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Liverpool vs Crystal Palace - Cháo Quẩy
+https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv
 
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Wolverhampton Wanderers vs Tottenham Hotspur - A Tai
-https://pull.globalcdnnetworksc2031.info/str01/blv-gio-tai.flv
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Hóa Chất Đức Giang Lào Cai Nữ vs Tasco Auto Hà Nội Nữ - Chim Nhỏ
+https://pull.globalcdnnetworksc2031.info/str01/blv-chim-nho.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Getafe vs FC Barcelona - Neymar
 https://pull.globalcdnnetworksc2031.info/str01/blv-thay-ma.flv

@@ -1,12 +1,9 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Portland Trail Blazers vs San Antonio Spurs - Văn Chuẩn
-https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan.flv
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Đài Loan vs Thụy Điển - Người Cát
+https://pull.globalcdnnetworksc2031.info/str01/blv-nguoi-cat.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Hisamitsu Springs Nữ vs Osaka Marvelous Nữ - Pháo
 https://pull.globalcdnnetworksc2031.info/str01/blv-phao.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Đài Loan vs Thụy Điển - Người Cát
-https://pull.globalcdnnetworksc2031.info/str01/blv-nguoi-cat.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Newcastle Jets vs Central Coast Mariners - Táo
 https://pull.globalcdnnetworksc2031.info/str01/blv-tao.flv
@@ -28,6 +25,9 @@ https://pull.globalcdnnetworksc2031.info/str01/blv-a-map.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Fulham vs Aston Villa - Mèo Béo
 https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp FC Köln vs Bayer 04 Leverkusen - Văn Chuẩn
+https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Liverpool vs Crystal Palace - Cháo Quẩy
 https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv

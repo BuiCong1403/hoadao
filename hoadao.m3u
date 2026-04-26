@@ -1,15 +1,12 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Minnesota United FC vs Los Angeles FC - Mèo Béo
-https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo.flv
-
-#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Bahia - BA vs Santos Fc - SP - Pháo
-https://pull.globalcdnnetworksc2031.info/str01/blv-phao.flv
-
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Atlanta Hawks vs New York Knicks - Dưa Hấu
 https://pull.globalcdnnetworksc2031.info/str01/blv-dua-hau.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Inter Miami CF vs New England Revolution - Chim Nhỏ
 https://pull.globalcdnnetworksc2031.info/str01/blv-chim-nho.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp São Paulo - SP vs Mirassol - SP - Pháo
+https://pull.globalcdnnetworksc2031.info/str01/blv-phao.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Minnesota Timberwolves vs Denver Nuggets - Văn Chuẩn
 https://pull.globalcdnnetworksc2031.info/str01/blv-van-chuan.flv
@@ -22,6 +19,9 @@ https://pull.globalcdnnetworksc2031.info/str01/blv-chao-quay.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Sorana Cîrstea vs Coco Gauff - Người Cát
 https://pull.globalcdnnetworksc2031.info/str01/blv-nguoi-cat.flv
+
+#EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp Hong Linh Ha Tinh vs Cong An Ho Chi Minh City - Mèo Béo
+https://pull.globalcdnnetworksc2031.info/str01/blv-meo-beo.flv
 
 #EXTINF:-1 tvg-logo="https://hoadaotv.info/assets/image/hoadaotvlogo.png", Xem Trực Tiếp SHB Da Nang vs The Cong Viettel - A Mập
 https://pull.globalcdnnetworksc2031.info/str01/blv-a-map.flv
